@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 
 :root{
-    --dark-primary:#1b1f24;
-    --glow-blue-secondary:#12bdff;
+
+    --dark-primary: #1d1e23;
+    --glow-blue-secondary: #ffd903;
+    --primary-hover: #dbba01;
 }
 
 
@@ -27,9 +29,10 @@ header .logo{
     font-weight: 800;
     color: var(--glow-blue-secondary);
     letter-spacing: 3px;
+    size: 30px;
 }
 
-header .logo a {
+header a {
     text-decoration: none;
 }
 
@@ -37,36 +40,114 @@ body{
      font-family: 'Open Sans', sans-serif;;
 }
 
-ul{
+header ul{
     display: flex;
     list-style: none;
 }
 
-ul li{
+header ul li{
     margin-right: 20px;
 }
-
-ul li a{
+ 
+header ul li a{
     text-decoration: none;
     color: white;
 }
 
-ul li a:hover{
+header li a:hover{
     color: var(--glow-blue-secondary);
 }
 
-/* header > button */
-header button {
-    padding: 10px 20px;
+/* section:Hero Homepage */
+
+section.hero-section{
+    background-color: var(--dark-primary);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    padding: 50px 200px 0px 150px;
+}
+
+.hero-section__title{
+font-weight: bold;
+}
+
+.hero-section__name{
+    color: var(--glow-blue-secondary);
+    font-weight:bolder;
+    font-size: 50px;
+    padding: 0 0 5px 0;
+}
+
+.hero-section__description{
+    font-weight: 300;
+    padding: 0 0 5px 0;
+}
+
+.social-icon{
+    margin: 20px 0;
+}
+
+.social-icon li{
+    margin-right: 15px;
+
+}
+ul.social-icon{
+    list-style: none;
+    display: flex   ;
+}
+
+.social-icon li > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icon li a >i.fa-github:hover{
+    color:#6cc644;
+}
+
+.social-icon li a >i.fa-linkedin:hover{
+    color:#0072b1 ;
+}
+
+.social-icon li a >i.fa-x-twitter:hover{
+    color:black;
+}
+
+/* button */
+.hero-button button{
+    margin-right: 10px;
+}
+
+.btn{
     font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    }
+
+.btn.btn-primary{
+    background-color: var(--glow-blue-secondary);
+    font-weight: bold;
+}
+.btn.btn-primary:hover{
+    background-color: var(--primary-hover) ;
+}
+
+.btn-dark-outlined{
     background-color: var(--dark-primary);
     border: 2px solid var(--glow-blue-secondary);
     border-radius: 5px;
     color: var(--glow-blue-secondary);
 }
+/* header > button */
 
-header button:hover{
+
+.btn-dark-outlined:hover{
     cursor: pointer;
     background-color: var(--glow-blue-secondary);
-    color: white;
+    color: #fff;
 }
+
