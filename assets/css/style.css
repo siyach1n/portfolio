@@ -19,6 +19,7 @@ header{
     background-color: var(--dark-primary);
     padding: 20px; 
     color: white;
+    margin-left: -164px;
 
     display: flex;
     justify-content: space-evenly;
@@ -30,11 +31,14 @@ header .logo{
     color: var(--glow-blue-secondary);
     letter-spacing: 3px;
     size: 30px;
+    margin-left: -35px;
+
 }
 
 header a {
     text-decoration: none;
 }
+
 
 body{
      font-family: 'Open Sans', sans-serif;;
@@ -52,6 +56,7 @@ header ul li{
 header ul li a{
     text-decoration: none;
     color: white;
+    text-weight:500
 }
 
 header li a:hover{
@@ -66,7 +71,7 @@ section.hero-section{
 
     display: flex;
     align-items: center;
-    padding: 50px 200px 0px 150px;
+    padding: 50px 115px 0px 150px;
 }
 
 .hero-section__title{
@@ -115,7 +120,16 @@ ul.social-icon{
     color:black;
 }
 
+.hero-img{
+
+}
+
 /* button */
+.header-dwnbtn{
+    margin-right: -85px;
+
+}
+
 .hero-button button{
     margin-right: 10px;
 }
@@ -151,3 +165,59 @@ ul.social-icon{
     color: #fff;
 }
 
+/* about -section */
+.about-section{
+    background:#1f2025;
+    color:#fff;
+    padding: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-section img {
+    width:250px;
+    border-radius: 10px;
+    border:3px transparent var(--glow-blue-secondary);
+    box-shadow: 4px -1px 37px #ffd90352;
+}
+
+.about-section--desc{
+    margin-left: 50px;
+    max-width: 450px;
+
+}
+
+.about-section--desc h4 {
+    font-size: 25px;
+    margin: 0 0 0 0;
+}
+
+.about-section--desc h4 > span {
+    color: var(--glow-blue-secondary);
+}
+
+.about-section--desc ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.about-section--desc  li {
+    margin: 10px 0 0 0;
+    color: grey;
+}
+
+.about-section--desc li > strong {
+    color: #fff;
+}
+
+.about-section--desc li >a {
+    text-decoration: none;
+    color: grey;
+}
+
+.about-section--desc li > a :hover{
+    color: var(--primary-hover);
+}
