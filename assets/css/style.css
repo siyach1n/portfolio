@@ -5,6 +5,7 @@
     --dark-primary: #1d1e23;
     --glow-blue-secondary: #ffd903;
     --primary-hover: #dbba01;
+    --opensansa : 'Open Sans', sans-serif;
 }
 
 
@@ -39,9 +40,8 @@ header a {
     text-decoration: none;
 }
 
-
 body{
-     font-family: 'Open Sans', sans-serif;;
+     font-family: 'Open Sans', sans-serif;
 }
 
 header ul{
@@ -215,7 +215,7 @@ ul.social-icon{
     color: grey;
 }
 
-.about-section--desc li > a :hover{
+.about-section--desc li >a:hover{
     color: var(--primary-hover);
 }
 
@@ -278,4 +278,48 @@ ul.social-icon{
     width: 250px;
 }
 
+/* contact- section */
 
+.contact-section{
+    background-color: #1f2025;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.contact-section h4 {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+
+.contact-section h4 > span{
+    color: var(--glow-blue-secondary);
+}
+
+.contact-section form  input ,textarea{
+    padding: 5px 10px;
+    outline: none;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(189, 189, 189);
+    margin-bottom:8px;
+    font-family: var(--opensansa);
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: gray;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--glow-blue-secondary);
+}
