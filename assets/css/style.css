@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 header{
     background-color: var(--dark-primary);
     padding: 20px; 
@@ -68,10 +72,11 @@ header li a:hover{
 section.hero-section{
     background-color: var(--dark-primary);
     color: white;
-
+    
     display: flex;
     align-items: center;
-    padding: 50px 115px 0px 150px;
+    padding: 147px 115px 147px 150px;
+
 }
 
 .hero-section__title{
@@ -166,7 +171,7 @@ ul.social-icon{
 .about-section{
     background:#1f2025;
     color:#fff;
-    padding: 60px;
+    padding: 232px;
 
     display: flex;
     justify-content: center;
@@ -224,7 +229,7 @@ ul.social-icon{
 .work-section{
     background-color: var(--dark-primary);
     color: #fff;
-    padding: 50px;
+    padding: 125px  ;
     text-align: center;
 }
 .work-sections-items{
@@ -290,7 +295,7 @@ ul.social-icon{
 
 .contact-section h4 {
     font-size: 30px;
-    margin: 20px 0;
+    margin: 100px 0;
 }
 
 
