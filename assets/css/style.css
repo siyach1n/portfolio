@@ -338,7 +338,8 @@ footer a{
     header{
        flex-direction: column;
        margin: 0;
-       width: 110%;
+       padding: 20px 0px 0px 50px;
+       width: 100%;
 
     }
 
@@ -359,8 +360,8 @@ footer a{
 
 section.hero-section{
     flex-direction: column;
-    width: 110%;
-   padding:  195px 207px 147px 150px;
+    width: 150%;
+   padding: 200px 230px 140px 116px;
   
 }
 
@@ -379,7 +380,7 @@ section.hero-section{
 
  section.about-section{
     flex-direction: column;
-    width: 110%;
+    width: 150%;
 }
 
 .about-section--desc{
@@ -390,8 +391,8 @@ section.hero-section{
 
 /* work-section */
 .work-section{
-    padding: 30px 10px;
-    width: 110%;
+    padding: 30px 100px;
+    width: 150%;
 }
 .work-section--title h4 {
  margin-bottom: 30px;
@@ -399,7 +400,7 @@ section.hero-section{
 .work-sections-items{
     flex-direction: column;
     width:fit-content;
-    margin-left: 75px;
+    margin-left: 20px;
 
 }
 
@@ -413,7 +414,7 @@ section.hero-section{
 
 /* contact */
 .contact-section {
-    width: 110%;
+    width: 150%;
 
 }
 .contact-section form input,textarea{
@@ -422,7 +423,7 @@ section.hero-section{
 
 /* footer */
 footer {
-    width: 110%;
+    width: 150%;
 }
   }
 
