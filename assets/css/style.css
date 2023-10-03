@@ -28,7 +28,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
+
     position: fixed;
     right: 0;
     left: 0;
@@ -337,7 +337,7 @@ footer a{
 @media only screen and (max-width: 600px) {
     header{
        flex-direction: column;
-       margin:0;
+       margin: 0px 79px 0 0px;
 
     }
 
@@ -363,12 +363,13 @@ section.hero-section{
 }
 
  .hero-img{
+    display: none;
     margin-left: 280px;
         padding: 0px 215px 0px 0px;
 }
 
 .hero-des{
-    margin: -75px 180px -38px 0px 
+    margin: 20px 180px 0px 0px 
 }
 
 /* About section */
@@ -389,6 +390,7 @@ section.hero-section{
 /* work-section */
 .work-section{
     padding: 30px 10px;
+    width: 100%
 }
 .work-section--title h4 {
  margin-bottom: 30px;
@@ -403,7 +405,7 @@ section.hero-section{
 .work-section--myworks{
     margin-bottom: 30px;
     margin-right: 0px;
-    width: 100%;
+    ;
     
    
 }
