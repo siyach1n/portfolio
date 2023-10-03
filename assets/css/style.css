@@ -361,7 +361,11 @@ section.hero-section{
 
  .hero-img{
     margin-left: 280px;
-padding: 0px 31px 0px 0px;
+        padding: 0px 215px 0px 0px;
+}
+
+.hero-des{
+    margin: -75px 180px -38px 0px 
 }
 
 /* About section */
