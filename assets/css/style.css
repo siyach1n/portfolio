@@ -419,6 +419,12 @@ section.hero-section{
 .contact-section form input,textarea{
  width: 100%;
 }
+
+/* footer */
+footer {
+    width: 110%;
+}
   }
+
 
 
