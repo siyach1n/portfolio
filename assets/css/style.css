@@ -25,15 +25,13 @@ header{
     padding: 20px; 
     color: white;
     margin-left: -164px;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    
     position: fixed;
-    left: 0;
     right: 0;
-    top: 0;
+    left: 0;
 }
 
 header .logo{
