@@ -19,7 +19,7 @@
 html {
     scroll-behavior: smooth;
   }
-  
+
 header{
     background-color: var(--dark-primary);
     padding: 20px; 
@@ -328,3 +328,83 @@ footer a{
     text-decoration: none;
     color: var(--glow-blue-secondary);
 }
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    header{
+       flex-direction: column;
+       margin:0;
+
+    }
+
+    header .logo{
+        margin-left: 0;
+    }
+    
+    .header-dwnbtn{
+        margin-right: 0;
+    }
+
+    header > * {
+        margin-bottom: 10px;
+    }
+
+
+    /* hero -section */
+
+section.hero-section{
+    flex-direction: column;
+    margin: 0 0 0 0;
+    padding: 15 0 0 0;
+}
+
+ .hero-img{
+    margin-left: 280px;
+padding: 0px 31px 0px 0px;
+}
+
+/* About section */
+.about-section{
+    padding:  70px 232px 87px 232px;
+}
+
+ section.about-section{
+    flex-direction: column;
+}
+
+.about-section--desc{
+    margin-left: 0;
+   margin-top: 30px;
+
+}
+
+/* work-section */
+.work-section{
+    padding: 30px 10px;
+}
+.work-section--title h4 {
+ margin-bottom: 30px;
+}
+.work-sections-items{
+    flex-direction: column;
+    width:fit-content;
+    margin-left: 75px;
+
+}
+
+.work-section--myworks{
+    margin-bottom: 30px;
+    margin-right: 0px;
+    width: 100%;
+    
+   
+}
+
+/* contact */
+.contact-section form input,textarea{
+ width: 100%;
+}
+  }
+
+
